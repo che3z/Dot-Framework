@@ -1,5 +1,5 @@
 # [Dot Framework](https://github.com/che3z/Dot-Framework)
-Dot is a simple and responsive HTML5 framework to kickstart a responsive project.
+Dot is simple responsive CSS3/HTML5 framework to kickstart a responsive project.
 
 Documentation and details are coming.
 
