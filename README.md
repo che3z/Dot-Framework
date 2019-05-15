@@ -6,8 +6,8 @@ Documentation and details are coming.
 ## Getting started
 
 Right now there are two ways to download Dot:
-- [Download the zip](https://github.com/dhg/Skeleton/releases/download/2.0.4/Skeleton-2.0.4.zip)
-- Clone the repo: `git clone https://github.com/dhg/Skeleton.git` (Note: this is under active development, so if you're looking for stable and safe, use the zipped download)
+- [Download the zip](https://github.com/vsevolod-kue/Dot-Framework/archive/master.zip)
+- Clone the repo: `git clone https://github.com/vsevolod-kue/Dot-Framework.git` (Note: this is under active development, so if you're looking for stable and safe, use the zipped download)
 
 
 ### What's in the download?
@@ -44,7 +44,7 @@ The above list is non-exhaustive. Dot works perfectly with almost all older vers
 
 ## License
 
-All parts of Dot are free to use and abuse under the [open-source MIT license](https://github.com//LICENSE.md).
+All parts of Dot are free to use and abuse under the [open-source MIT license](https://github.com/vsevolod-kue/Dot-Framework/blob/master/LICENSE.md).
 
 
 ## Acknowledgement
