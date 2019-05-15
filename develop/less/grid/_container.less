@@ -1,0 +1,43 @@
+.container-fluid{
+	width: 100%;
+}
+
+.container{
+	width: 100%;
+	max-width: 100%;
+	.rem(padding-right,@column-gap / 2);
+	.rem(padding-left,@column-gap / 2);
+	margin-right: auto;
+	margin-left: auto;
+	@media @lg{
+		.rem(max-width,@content-lg);
+	}
+	@media @md{
+		.rem(max-width,@content-md);
+	}
+	@media @sm{
+		.rem(max-width,@content-sm);
+	}
+	@media @xs{
+		.rem(max-width,@content-xs);
+	}
+	&-fluid{
+		.rem(padding,0);
+		max-width: 100%;
+	}
+	&-indent{
+		@media @lg{
+			.rem(max-width,@content-indent-lg);
+		}
+		@media @md{
+			.rem(max-width,@content-indent-md);
+		}
+		@media @sm{
+			.rem(max-width,@content-indent-sm);
+		}
+		@media @xs{
+			.rem(max-width,@content-indent-xs);
+		}
+	}
+}
+

@@ -1,0 +1,33 @@
+.grid-element(){
+	.generateCols(@cols, lg);
+	@media @md{
+		.generateCols(@cols, md);
+	};
+	@media @sm{
+		.generateCols(@cols, sm);
+	};
+	@media @xs{
+		.generateCols(@cols, xs);
+	};
+}
+
+.generateCols(@counter, @query) when (@counter > 0) {
+	@width: (@counter / @cols ) * 100;
+	.col-@{query}-@{counter} {
+		-ms-flex: 0 0 ~"@{width}%";
+		flex: 0 0 ~"@{width}%";
+		max-width: ~"@{width}%";
+	}
+	.offset-@{query}-@{counter} {
+		margin-left: ~"@{width}%";
+	}
+	.order-@{query}-@{counter} {
+		-webkit-order: @counter;
+		-ms-order: @counter;
+		order: @counter;
+	}
+	.generateCols((@counter - 1), @query);
+}
+.generateCols(@counter, @query) when (@counter = 0) {
+	.col-@{query}-@{counter} {display:none;}
+}

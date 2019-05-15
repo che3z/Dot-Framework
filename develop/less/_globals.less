@@ -1,0 +1,134 @@
+@base-color:#ffffff;
+
+@color:
+    '1' #ffffff,
+    '2' #000000,
+    '3' #f18700,
+	'error' #f18700,
+	'succcess' #3ebc00;
+	
+;
+.each(@color);
+
+// set the body background color
+@body-bg-color: @base-color;
+
+// set the sizes for headlines
+@headline-first-large: 50;
+@headline-first-small: 22;
+@line-height-first-large: 55;
+@line-height-first-small: 26;
+
+@headline-second-large: 28;
+@headline-second-small: 17;
+@line-height-second-large: 30;
+@line-height-second-small: 30;
+
+@headline-third-large: 24;
+@headline-third-small: 16;
+@line-height-third-large: 28;
+@line-height-third-small: 28;
+
+@headline-fourth-large: 20;
+@headline-fourth-small: 16;
+@line-height-fourth-large: 24;
+@line-height-fourth-small: 28;
+
+@headline-fifth-large: 16;
+@headline-fifth-small: 16;
+@line-height-fifth-large: 28;
+@line-height-fifth-small: 28;
+
+@headline-sixth-large: 14;
+@headline-sixth-small: 14;
+@line-height-sixth-large: 24;
+@line-height-sixth-small: 24;
+
+// subtitles
+@subtitle-large: @base-font-size;
+@subtitle-small: @small-font-size;
+
+// main paddings
+
+@main-desktop-padding-top:316;
+@main-mobile-padding-top:0;
+
+@header-pos-desktop:fixed;
+@header-pos-mobile:relative;
+
+// set the default font-size on the body-tag
+@default-font-size: 16;
+// default font size
+@base-font-size: 22;
+@base-line-height: 35;
+@small-font-size: 14;
+@small-base-line-height: 20;
+
+// regular copytext color
+@copytext-color: @color-2;
+ 
+// set the gutter and content width
+@column-gap: 32;
+@cols: 8;
+
+@content-width: 1352;
+@content-width-indent: 1006;
+@content-lg: @content-width + @column-gap;
+@content-md: @content-lg;
+@content-sm: @content-lg;
+@content-xs: @content-lg;
+@content-indent-lg: @content-width-indent + @column-gap;
+@content-indent-md: @content-lg;
+@content-indent-sm: @content-lg;
+@content-indent-xs: @content-lg;
+
+// set the font-families
+@font-face{
+    font-family:"Asap Medium";
+    src:url("../fonts/Asap-Medium.ttf");
+}
+@font-face{
+    font-family:"Asap Medium Italic";
+    src:url("../fonts/Asap-MediumItalic.ttf");
+}
+
+@font-face{
+    font-family:"Asap Regular";
+    src:url("../fonts/Asap-Regular.ttf");
+}
+@font-face{
+    font-family:"Asap Italic";
+    src:url("../fonts/Asap-Italic.ttf");
+}
+
+@font-face{
+    font-family:"Asap Bold";
+    src:url("../fonts/Asap-Bold.ttf");
+}
+@font-face{
+    font-family:"Asap Bold Italic";
+    src:url("../fonts/Asap-BoldItalic.ttf");
+}
+
+@base-font: 'Asap Regular', Arial, Sans-Serif;
+
+// the media queries
+@lg: ~'only screen and (min-width: 1384px)';
+@md: ~'only screen and (max-width: 1383px)';
+@sm: ~'only screen and (max-width: 768px)';
+@xs: ~'only screen and (max-width: 480px)';
+// IE10+
+@ie: ~'only screen and (-ms-high-contrast: active), (-ms-high-contrast: none)';
+
+@root: "../";
+@img: "img/";
+@url: "@{root}@{img}";
+
+// Debug var for rem
+@debug: true;
+
+
+
+
+
+

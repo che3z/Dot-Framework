@@ -1,0 +1,15 @@
+.row{
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	.rem(margin-right,@column-gap / -2);
+	.rem(margin-left,@column-gap / -2);
+	[class*="col-"]{
+		position: relative;
+		width: 100%;
+		.rem(min-height, 1);
+		.rem(padding-right, @column-gap / 2);
+		.rem(padding-left, @column-gap / 2);
+	}
+}
