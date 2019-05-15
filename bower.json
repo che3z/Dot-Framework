@@ -1,0 +1,22 @@
+{
+  "name": "dot-framework",
+  "version": "1.0.1",
+  "homepage": "https://github.com/vsevolod-kue/Dot-Framework/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vsevolod-kue/Dot-Framework/"
+  },
+  "authors": [
+    "Vsevolod Küppers <vsevolod.kueppers@gmx.net>"
+  ],
+  "description": "Dot is simple responsive CSS3/HTML5 framework to kickstart a responsive project.",
+  "main": "css/style.min.css",
+  "keywords": [
+    "css",
+    "less",
+    "dot",
+    "responsive",
+    "framework"
+  ],
+  "license": "MIT"
+}
